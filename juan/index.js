@@ -2,13 +2,14 @@ $(document).ready(function() {
 
     var carousel = $('.carousel');
     carousel.carousel(
-        { fullWidth: true }
+        {   
+            indicators: true}
     );
 
     console.log('To pronto, carousel carregou');
     setInterval( ()=>{ 
         carousel.carousel('next')
-        console.log("tofuncionandoporra")
+        console.log("carousel working")
     } 
-    ,3500)
+    ,3000)
 });
