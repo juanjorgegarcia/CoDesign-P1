@@ -1,0 +1,184 @@
+html,body{
+    width:100%;
+    height: 100%;
+}
+
+html{
+    overflow-y:scroll;
+}
+.NavBarFixed{
+    color:white;
+    background-color:darkblue;
+    width:100%;
+    height:4em;
+    position: fixed;
+    top:0;
+    overflow: hidden;
+}
+
+.NavItem{
+    height: 100%;
+    width: 100%;
+    padding:0;
+
+}
+
+
+.NavItem a{
+    color:white;
+    text-decoration: none;
+}
+
+.NB{
+    height: 100%;
+}
+.NavFix:hover{
+    background-color:lightblue;
+    color:black;
+}
+
+.col{
+    padding:0;
+}
+.row{
+    margin:0;
+}
+
+.NavFix{
+    color:white;
+    transition:color 0.5s, background-color 0.5s;
+    height: 100%;
+    width:100%;
+    text-align: center;
+    cursor: pointer;
+    padding-top:0.8em;
+    font-size:0.9em;
+
+}
+
+
+.conteudo{
+    margin-top: 3.8em;
+    width:100%;
+    padding:0;
+    height:80%;
+}
+
+.MainCarousel{
+    text-align: center;
+    width:100%;
+    padding:0;
+    
+}
+
+.CarItem{
+    width:100%;
+    height:100%;
+    border: 2px solid white;
+    transition: opacity 1s;
+}
+
+
+
+
+.special{
+    width:100%;
+    height:100%;
+    border: 2px solid white;
+    
+    transition: opacity 1s;
+    transition-delay: 0.1s;
+}
+
+.special:hover, .CarItem:hover{
+    opacity:0.7;
+}
+
+
+@keyframes LogoAnim{
+    0%   {background-color:white;}
+    25%  {background-color:white;}
+    50%  {background-color:orange;}
+    75%  {background-color:yellow;}
+    100% {background-color:white;}
+}
+
+.Logo{
+    text-align: center;
+    font-size: 2.8em;
+    font-family: 'Lobster', cursive;
+    cursor: default; 
+    border-radius: 80%;
+    background-color: white;
+    color: darkblue;
+    animation-name: LogoAnim;
+    animation-duration: 600s;
+    animation-iteration-count: infinite;
+}
+
+.LogoRow{
+    padding:5px;
+}
+
+.FotoSB{
+    border-radius: 49%;
+    border: 4px solid white;
+    box-shadow: 3px 3px 1.6em 0 rgba(0, 0, 0, 0.39);
+}
+
+.TituloSB{
+    font-size: 3em;
+    text-align: center;
+    margin-top:50px;
+}
+
+.espTopo{
+    margin-top:5%;
+}
+
+.LinhaTitulo{
+    background: black;
+    height: 3px;
+}
+
+.SB{
+    margin-top:5%;
+}
+
+.SBcard{
+    background-color: white;
+    color: black;
+    box-shadow: 3px 3px 1em 0px rgba(0, 0, 0, 0.39);
+    border-radius: 2em;
+    padding: 0;
+    text-align: justify;
+    padding-bottom: 1em;
+    margin-top: 10px;
+}
+
+.SBcardHeader{
+    background-color: darkorange;
+    width: 100%;
+    border-top-left-radius: 2em;
+    border-top-right-radius:2em;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.ProjectTitle{
+    margin-top: 2em;
+    text-align: center;
+    color:black;
+    font-size: 3em;
+}
+
+.ProTitle{
+    background-color: darkorange;
+    border-radius: 1em; 
+}
+
+.ProLine{
+    background-color: darkorange;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+}
