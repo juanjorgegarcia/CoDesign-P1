@@ -8,4 +8,20 @@ body {
     flex: 1 0 auto;
   }
 
-#about { padding-top: -900px; }
+#about{
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+.slider .slides li .caption{
+  color:black;
+  top:0%;
+}
+
+.slider .slides li img{
+  filter: blur(2px)
+}
+
+.sub{
+  color:#746C06
+}
