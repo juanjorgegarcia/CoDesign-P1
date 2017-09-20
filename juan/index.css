@@ -10,15 +10,17 @@ body {
 
 .slider .slides li .caption{
   color:black;
-  top:0%;
+  font-weight:bold;
+  top:30%;
 }
 
 .slider .slides li img{
-  filter: blur(2px)
+  filter: opacity(70%) saturate(50%) blur(3px) ;
+
 }
 
 .sub{
-  color:#746C06
+  color:black;
 }
 
 
