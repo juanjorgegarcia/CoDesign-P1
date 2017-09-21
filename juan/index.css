@@ -11,7 +11,7 @@ body {
 .slider .slides li .caption{
   color:black;
   font-weight:bold;
-  top:30%;
+  top:20%;
 }
 
 .slider .slides li img{
@@ -56,4 +56,13 @@ body {
 
 .parallax-container img{
   filter: saturate(50%) opacity(95%) brightness(50%);
+}
+#about{
+  margin-top:-50px ;
+  padding-top:50px;
+}
+
+#projects{
+  margin-top:-50px ;
+  padding-top:50px;
 }
