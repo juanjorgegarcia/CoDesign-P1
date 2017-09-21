@@ -40,4 +40,20 @@ body {
   }
 
 }
-  
+
+@media only screen  and (max-width : 600px) {
+  /* Styles */
+  .parallax-container {
+    height: 400px;
+  }
+
+}
+
+.parallax-container h5{
+  color:white;
+  font-weight: 700;
+}
+
+.parallax-container img{
+  filter: saturate(50%) opacity(95%) brightness(50%);
+}
