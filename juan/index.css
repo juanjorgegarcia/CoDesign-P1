@@ -9,18 +9,20 @@ body {
   }
 
 .slider .slides li .caption{
-  color:black;
+  color:white;
   font-weight:bold;
   top:20%;
+  text-shadow: 2px 2px black;
 }
 
 .slider .slides li img{
-  filter: opacity(70%) saturate(50%) blur(3px) ;
+  filter: saturate(50%) opacity(95%) brightness(80%) ;
 
 }
 
 .sub{
-  color:black;
+  color:white;
+  text-shadow: 1px 1px black;
 }
 
 
@@ -55,6 +57,9 @@ body {
 }
 
 .parallax-container img{
+}
+
+.parallax-container img{
   filter: saturate(50%) opacity(95%) brightness(50%);
 }
 #about{
@@ -66,3 +71,7 @@ body {
   margin-top:-50px ;
   padding-top:50px;
 }
+
+slider.slider({        
+  interval:3000,
+})

@@ -2,9 +2,9 @@ $(document).ready(function() {
 
     $(".button-collapse").sideNav();
     
-    var slider = $('.slider').slider();
-    slider.slider({        
-        interval:3000,
-    })
+    var slider = $('.slider').slider(
+        {interval:3000,
+        }
+    );
     $('.parallax').parallax();  
 });
