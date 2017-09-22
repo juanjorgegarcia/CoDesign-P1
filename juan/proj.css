@@ -94,3 +94,5 @@ p{
   font-size:6rem;
 }
 
+.side-nav .background img{
+  filter: saturate(50%) opacity(95%) brightness(50%) blur(1px) ;
