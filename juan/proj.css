@@ -76,6 +76,10 @@ slider.slider({
   interval:3000,
 })
 
+p{
+    text-align: center;
+}
+
 .nav-wrapper{
   color:black;
   background-color:white;
