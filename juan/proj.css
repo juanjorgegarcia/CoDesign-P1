@@ -81,18 +81,14 @@ p{
 }
 
 .nav-wrapper{
-  color:black;
-  background-color:white;
-  width: 100%;
-  height: 70px;
-  line-height: 56px;
+    color:black;
+    background-color:darkslategray;
+    width: 100%;
+    height: 56px;
+    
 }
 
-nav {
-  background-color: darkslategray;
-  width: 100%;
-  
-}
+
 
 .material-icons {
   font-size:6rem;
