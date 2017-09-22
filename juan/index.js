@@ -1,10 +1,15 @@
 $(document).ready(function() {
 
-    $(".button-collapse").sideNav();
+    $(".button-collapse").sideNav({
+        closeOnClick: true,
+
+    });
     
-    var slider = $('.slider').slider(
-        {interval:3000,
-        }
-    );
-    $('.parallax').parallax();  
+    var slider = $('.slider').slider();
+    slider.slider({      
+        interval:3000,
+    })
+    
+    $('.parallax').parallax();
+    
 });
