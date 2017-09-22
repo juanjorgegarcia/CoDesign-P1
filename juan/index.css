@@ -89,3 +89,7 @@ nav {
 .material-icons {
   font-size:6rem;
 }
+
+.card-title{
+  text-shadow: 1px 1px black;
+}
