@@ -48,8 +48,18 @@ body {
   .parallax-container {
     height: 400px;
   }
+  #ppt iframe{
+    width:400px;
+    
+  }
+  #email iframe{
+    height:350px;
+  }
+
 
 }
+
+
 
 .parallax-container h5{
   color:white;
@@ -82,7 +92,7 @@ p{
 
 .nav-wrapper{
     color:black;
-    background-color:darkslategray;
+    background-color:#455a64;
     width: 100%;
     height: 56px;
     
