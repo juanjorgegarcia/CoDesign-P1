@@ -72,20 +72,7 @@ body {
 .side-nav .background img{
   filter: saturate(50%) opacity(95%) brightness(50%) blur(1px) ;
 
-.nav-wrapper{
-  color:black;
-  background-color:white;
-  width: 100%;
-  height: 70px;
-  line-height: 56px;
 }
-
-nav {
-  background-color: darkslategray;
-  width: 100%;
-  
-}
-
 .material-icons {
   font-size:6rem;
 }
