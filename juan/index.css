@@ -57,9 +57,6 @@ body {
 }
 
 .parallax-container img{
-}
-
-.parallax-container img{
   filter: saturate(50%) opacity(95%) brightness(50%);
 }
 #about{
@@ -72,9 +69,8 @@ body {
   padding-top:50px;
 }
 
-slider.slider({        
-  interval:3000,
-})
+.side-nav .background img{
+  filter: saturate(50%) opacity(95%) brightness(50%) blur(1px) ;
 
 .nav-wrapper{
   color:black;
