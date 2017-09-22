@@ -1,6 +1,8 @@
 $(document).ready(function() {
 
-    $(".button-collapse").sideNav();
+    $(".button-collapse").sideNav({
+        closeOnClick: true,
+    });
     
     var slider = $('.slider').slider(
         {interval:3000,
