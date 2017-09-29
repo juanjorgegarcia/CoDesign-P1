@@ -27,7 +27,7 @@ body {
 
 
 /* Large screens ----------- */
-@media only screen  and (min-width : 1200px) {
+@media only screen  and (min-width : 1400px) {
   /* Styles */
   .slides li{
     min-height: 600px;
@@ -40,9 +40,7 @@ body {
   .slides{
     height: 600px !important;
   }
-  #ppt iframe{
-    height:800px; 
-  }
+
 }
 
 @media only screen  and (max-width : 600px) {
