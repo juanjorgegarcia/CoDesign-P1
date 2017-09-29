@@ -40,7 +40,9 @@ body {
   .slides{
     height: 600px !important;
   }
-
+  #ppt iframe{
+    height:800px; 
+  }
 }
 
 @media only screen  and (max-width : 600px) {
@@ -48,10 +50,7 @@ body {
   .parallax-container {
     height: 400px;
   }
-  #ppt iframe{
-    width:300px;
-    
-  }
+
   #email iframe{
     height:350px;
   }
