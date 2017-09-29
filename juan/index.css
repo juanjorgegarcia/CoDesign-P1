@@ -88,3 +88,7 @@ figure.effect-bubba h2 {
 	-webkit-transform: translate3d(0,-20px,0);
 	transform: translate3d(0,-20px,0);
 }
+
+figure.effect-bubba img {
+height:100%;
+}
