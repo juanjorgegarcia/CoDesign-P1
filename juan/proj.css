@@ -40,7 +40,9 @@ body {
   .slides{
     height: 600px !important;
   }
-
+  #ppt iframe{
+    height:800px; 
+  }
 }
 
 @media only screen  and (max-width : 600px) {
@@ -48,10 +50,7 @@ body {
   .parallax-container {
     height: 400px;
   }
-  #ppt iframe{
-    width:400px;
-    
-  }
+
   #email iframe{
     height:350px;
   }
@@ -66,8 +65,6 @@ body {
   font-weight: 700;
 }
 
-.parallax-container img{
-}
 
 .parallax-container img{
   filter: saturate(50%) opacity(95%) brightness(50%);
@@ -82,9 +79,7 @@ body {
   padding-top:50px;
 }
 
-slider.slider({        
-  interval:3000,
-})
+
 
 p{
     text-align: center;
@@ -106,3 +101,4 @@ p{
 
 .side-nav .background img{
   filter: saturate(50%) opacity(95%) brightness(50%) blur(1px) ;
+}
