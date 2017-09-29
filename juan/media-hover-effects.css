@@ -13,12 +13,13 @@
 	float: left;
 	overflow: hidden;
 	margin: 10px 1%;
-	min-width: 320px;
-	max-width: 480px;
-	max-height: 360px;
+	min-width: 90%;
+	max-width: 90%;
+	max-height: 230px;
 	width: 100%;
 	/*background: #3085a3;*/
 	text-align: center;
+	 
 	cursor: pointer;
 }
 
@@ -28,10 +29,11 @@
 	min-height: 100%;
 	max-width: 100%;
 	opacity: 0.8;
+	font-size:50%;
 }
 
 .grid figure figcaption {
-	padding: 2em;
+	padding: 0;
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 1.25em;
@@ -278,7 +280,7 @@ figure.effect-roxy:hover p {
 /*---------------*/
 
 figure.effect-bubba {
-	background: #9e5406;
+	background: black;
 }
 
 figure.effect-bubba img {
