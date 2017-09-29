@@ -5,7 +5,7 @@ $(document).ready(function() {
     });
     
     var slider = $('.slider').slider(
-        {interval:3000,
+        {interval:5000,
         }
     );
     $('.parallax').parallax();  
