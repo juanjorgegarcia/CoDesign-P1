@@ -8,6 +8,8 @@ $(document).ready(function() {
         {interval:5000,
         }
     );
-    $('.parallax').parallax();  
+    $('.parallax').parallax(); 
+    
+    var scroll= $('.scrollspy').scrollSpy(); 
 });
 

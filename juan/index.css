@@ -8,6 +8,9 @@ body {
     flex: 1 0 auto;
   }
 
+.slider{
+  top:-15px;
+}
 .slider .slides li .caption{
   color:white;
   font-weight:bold;
@@ -91,4 +94,9 @@ figure.effect-bubba h2 {
 
 figure.effect-bubba img {
 height:100%;
+}
+
+
+nav ul li a.active {
+  background: rgba(0,0,0,0.2);
 }
